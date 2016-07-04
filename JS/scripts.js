@@ -8,7 +8,6 @@ var favourite_Comics = ["The Amazing Spiderman", "New X-Men", "The Watchmen","Sp
 favourite_Comics.reverse();
 
 
-
 // ------------------------------------------------------------
 // ::::::::::::::::: Guy's Variables examples :::::::::::::::::
 // ------------------------------------------------------------
@@ -37,9 +36,30 @@ var score = 0;
 score = score + 10; // score is 10
 score += 10; // score is 20
 score++; // score is 21
-//score; // score is  //Was making linter angry for some reason
+//score; // score is            //makes linter angry for some reason
 score-=10; // score is 10
 score=score-10; // score is 0
 
 
 //VARIABLE CONVERSION
+
+// IF ELSE STATEMENTS - See old_enough.js
+
+//.............
+
+
+// TERNARY OPERATORS
+
+//e.g. (adult holds value 'no')
+
+var age = 12;
+var adult = age > 18 ? 'yes': 'no';
+
+// Types of conditional
+
+// > more than                  //makes linter angry for some reason
+// < less than                  //makes linter angry for some reason
+// >= more than or equal to     //makes linter angry for some reason
+// <= less than or equal to     //makes linter angry for some reason
+// === equal to                 //makes linter angry for some reason
+// !== not equal to             //makes linter angry for some reason
