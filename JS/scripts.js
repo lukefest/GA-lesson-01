@@ -2,7 +2,7 @@
 
 
 
-//Luke's bash at variables
+//Luke's bash at variable arrays
 
 var favourite_Comics = ["The Amazing Spiderman", "New X-Men", "The Watchmen","Spiderman 2099"];
 favourite_Comics.reverse();
